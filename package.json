@@ -1,0 +1,23 @@
+{
+  "name": "coderetreat-js-jest",
+  "version": "1.0.0",
+  "description": "productboard coderetreat js + jest",
+  "main": "index.js",
+  "author": "Igor Kulka <igor@productboard.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --config=jest.config.js",
+    "watch": "jest --watchAll --config=jest.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.2",
+    "jest": "^23.5.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
